@@ -1,5 +1,5 @@
 # PteroUpdater
-Updates Pterodactyl using a script.
+The fastest way to update pterodactyl!
 
 Use: `sudo bash <(curl -s https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/update.sh)`
 
