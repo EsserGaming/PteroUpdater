@@ -1,3 +1,10 @@
+
+#!/bin/bash
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root" 
+   exit 1
+fi
+
 # Update Panel
 cd /var/www/pterodactyl
 php artisan down
