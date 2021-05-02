@@ -5,8 +5,8 @@ NoColor='\033[0m'
 
 # Panel
 echo "${LIGHT_GREEN}" Updating panel
-https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/panel.sh
+bash <(curl -s https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/panel.sh)
 
 # Wings
 echo "${BLUE}" Updating wings
-https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/wings.sh
+bash <(curl -s https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/wings.sh)
