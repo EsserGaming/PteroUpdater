@@ -1,7 +1,7 @@
 
 #!/bin/bash
 if [[ $EUID -ne 0 ]]; then
-   echo "This script must be run as root" 
+   echo "$(tput setaf 2)This script must be run as root $(tput setaf 2)"
    exit 1
 fi
 
