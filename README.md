@@ -5,9 +5,9 @@ Use: `bash <(curl -s https://raw.githubusercontent.com/EsserGaming/PteroUpdater/
 
 For induvidual installs:
 
-Panel: `bash <(https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/panel.sh)`
+Panel: `bash <(curl -s https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/panel.sh)`
 
-Wings: `bash <(https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/wings.sh)`
+Wings: `bash <(curl -s https://raw.githubusercontent.com/EsserGaming/PteroUpdater/main/wings.sh)`
 
 **Warning!**
 - Does not work with CentOS.
