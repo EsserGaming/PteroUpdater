@@ -5,10 +5,12 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 echo "$(tput setaf 4)Updating wings... $(tput setaf 7)" 
+#Turn off wings to allow for update
+systemctl stop wings
 #Update wings
 cd /usr/local/bin
 curl -L -o /usr/local/bin/wings https://github.com/pterodactyl/wings/releases/latest/download/wings_linux_amd64
 chmod u+x /usr/local/bin/wings
-systemctl restart wings
+systemctl start wings
 cd
 echo "$(tput setaf 4)Wings updated! $(tput setaf 7)" 
